@@ -1,0 +1,46 @@
+* {
+    padding: 0 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 40px;
+}
+
+.nav-menu {
+    border: 1px solid aqua;
+}
+
+#first-item {
+    font-size: 25px;
+}
+
+#link1 {
+    color: red;
+}
+.nav-menu a {
+    text-decoration: none;
+}
+
+.nav-menu .menu-link {
+   font-weight: 800;
+}
+
+.block-first {
+    position: relative;
+}
+
+.block-first .block-title {
+    position: relative;
+    border-bottom: 1px solid black;
+    top: 10px;
+    left: 64px;
+}
+
+.block-first .block-title::after {
+    content: "\260E";
+    position: absolute;
+    left: -64px;
+    top: -4px;
+    width: 30px;
+    height: 30px;
+}
